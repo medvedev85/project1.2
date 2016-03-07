@@ -1,0 +1,11 @@
+### Изменяем кодировку на UTF-8 ###
+AddDefaultCharset UTF-8
+
+### Максимальный размер загружаемых файлов ###
+php_value memory_limit 32M
+php_value post_max_size 20M
+php_value upload_max_filesize 20M
+php_value max_file_uploads 20
+
+### Выводим все возможные ошибки ###
+php_flag display_errors 1
